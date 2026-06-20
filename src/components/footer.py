@@ -13,11 +13,10 @@ def footer_home():
         ">
             Created with ❤️ by
             <span style="
-                background: linear-gradient(90deg, #ff4b4b, #6c63ff);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                font-size:20px;
-            ">
+            color:#FFD700;
+            font-size:22px;
+            font-weight:800;
+        ">
                 Darshil Detroja
             </span>
         </div>
@@ -37,11 +36,10 @@ def footer_dashboard():
         ">
             Created with ❤️ by
             <span style="
-                background: linear-gradient(90deg, #ff4b4b, #6c63ff);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                font-size:20px;
-            ">
+            color:#FFD700;
+            font-size:22px;
+            font-weight:800;
+        ">
                 Darshil Detroja
             </span>
         </div>
