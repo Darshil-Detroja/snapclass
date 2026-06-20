@@ -1,25 +1,48 @@
 import streamlit as st
 
-
 def footer_home():
-    logo_url = "assets/logo.png"
-    
-    st.markdown(f"""
-        <div style="margin-top:2rem; display:flex; gap:6px; justify-content:center; items-align:center">
-        <p style="font-weight:bold; color:white;"> Created ❤️ by </p>  
-        <img src='{logo_url}' style='max-height:25px' />
+    st.markdown("""
+        <div style="
+            margin-top:2rem;
+            text-align:center;
+            font-size:18px;
+            font-weight:700;
+            font-family:'Segoe UI', sans-serif;
+            color:white;
+            letter-spacing:1px;
+        ">
+            Created with ❤️ by
+            <span style="
+                background: linear-gradient(90deg, #ff4b4b, #6c63ff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size:20px;
+            ">
+                Darshil Detroja
+            </span>
         </div>
-                
-                """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
 
 
 def footer_dashboard():
-    logo_url = "assets/logo.png"
-    
-    st.markdown(f"""
-        <div style="margin-top:2rem; display:flex; gap:6px; justify-content:center; items-align:center">
-        <p style="font-weight:bold; color:black;"> Created with ❤️ by </p>  
-        <img src='{logo_url}' style='max-height:25px' />
+    st.markdown("""
+        <div style="
+            margin-top:2rem;
+            text-align:center;
+            font-size:18px;
+            font-weight:700;
+            font-family:'Segoe UI', sans-serif;
+            color:black;
+            letter-spacing:1px;
+        ">
+            Created with ❤️ by
+            <span style="
+                background: linear-gradient(90deg, #ff4b4b, #6c63ff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size:20px;
+            ">
+                Darshil Detroja
+            </span>
         </div>
-                
-                """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
